@@ -140,7 +140,19 @@ Observable.deferred {
 
 print("-----deferred2-----")
 var 뒤집기: Bool = false
-let factory: Observable<Int> = Observable.deferred {
-    Observable.of(1, 2, 3)
+let factory: Observable<String> = Observable.deferred {
+    뒤집기 = !뒤집기
+    
+    if 뒤집기 {
+        return Observable.of("🔥")
+    } else {
+        return Observable.of("❌")
+    }
 }
 
+for _ in 0...3 {
+    factory.subscribe(onNext: {
+        print($0)
+    })
+        .disposed(by: disposeBag)
+}
