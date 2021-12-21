@@ -129,7 +129,7 @@ Observable<Int>.create { observable -> Disposable in
 .disposed(by: disposeBag)
 
 
-print("-----deferred-----")
+print("-----deferred1-----")
 Observable.deferred {
     Observable.of(1, 2, 3)
 }
@@ -137,3 +137,10 @@ Observable.deferred {
     print($0)
 }
 .disposed(by: disposeBag)
+
+print("-----deferred2-----")
+var 뒤집기: Bool = false
+let factory: Observable<Int> = Observable.deferred {
+    Observable.of(1, 2, 3)
+}
+
