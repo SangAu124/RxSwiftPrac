@@ -1,12 +1,14 @@
 import Foundation
 import RxSwift
 
+//just -> 하나만
 print("----JUST----")
 Observable<Int>.just(1)
     .subscribe(onNext: {
         print($0)
     })
 
+//of -> 여러개
 print("----OF1----")
 Observable<Int>.of(1, 2, 3, 4, 5)
     .subscribe(onNext: {
@@ -19,6 +21,7 @@ Observable.of([1, 2, 3, 4, 5])
         print($0)
     })
 
+// from -> 배열
 print("----FROM----")
 Observable.from([1, 2, 3, 4, 5])
     .subscribe(onNext: {
@@ -26,6 +29,7 @@ Observable.from([1, 2, 3, 4, 5])
     })
 
 
+//Observable을 만들어도 subscribe를 하지 않으면 방출? 되지 않는다.
 print("----subscribe1----")
 Observable.of(1, 2, 3)
     .subscribe{

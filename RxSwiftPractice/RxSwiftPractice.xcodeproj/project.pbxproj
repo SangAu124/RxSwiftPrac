@@ -29,6 +29,7 @@
 		EF8D6AA7276E574400E362B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF8D6AAA276E574400E362B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF8D6AAC276E574400E362B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD9C8692772CA580095C5EA /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				EF8D6AA9276E574400E362B4 /* LaunchScreen.storyboard */,
 				EF8D6AAC276E574400E362B4 /* Info.plist */,
 				EF563473276E57F900CFA0D3 /* Observable.playground */,
+				EFD9C8692772CA580095C5EA /* Traits.playground */,
 			);
 			path = RxSwiftPractice;
 			sourceTree = "<group>";
