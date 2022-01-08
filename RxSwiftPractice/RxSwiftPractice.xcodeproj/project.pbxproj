@@ -76,6 +76,18 @@
 		EF8D6A9D276E574400E362B4 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				EFA821B42789457B009C7C92 /* New Group */,
+				EF9991CC2788623A00BBF5C2 /* TransformingOperator.playground */,
+				EF9991CB2788622D00BBF5C2 /* FilteringOperator.playground */,
+				EF563473276E57F900CFA0D3 /* Observable.playground */,
+				EFD9C8692772CA580095C5EA /* Traits.playground */,
+			);
+			path = RxSwiftPractice;
+			sourceTree = "<group>";
+		};
+		EFA821B42789457B009C7C92 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
 				EF8D6A9E276E574400E362B4 /* AppDelegate.swift */,
 				EF8D6AA0276E574400E362B4 /* SceneDelegate.swift */,
 				EF8D6AA2276E574400E362B4 /* ViewController.swift */,
@@ -83,12 +95,8 @@
 				EF8D6AA7276E574400E362B4 /* Assets.xcassets */,
 				EF8D6AA9276E574400E362B4 /* LaunchScreen.storyboard */,
 				EF8D6AAC276E574400E362B4 /* Info.plist */,
-				EF9991CC2788623A00BBF5C2 /* TransformingOperator.playground */,
-				EF9991CB2788622D00BBF5C2 /* FilteringOperator.playground */,
-				EF563473276E57F900CFA0D3 /* Observable.playground */,
-				EFD9C8692772CA580095C5EA /* Traits.playground */,
 			);
-			path = RxSwiftPractice;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		F073B4BD2BCB4DC039521F3C /* Frameworks */ = {
