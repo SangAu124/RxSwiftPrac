@@ -95,6 +95,27 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>TimeBasedOperator (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>TimeBasedOperator (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>TimeBasedOperator (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>Traits (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
